@@ -19,7 +19,7 @@ namespace Practica {
 		}
 
 		public string Detalles () {
-			return $"El vuelo es {_tipoVuelo} y tiene un precio de {_precio}";
+			return $"El vuelo es {_tipoVuelo} y tiene un precio de ${_precio}";
 		}
 	}
 }

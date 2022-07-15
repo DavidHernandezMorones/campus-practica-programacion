@@ -36,7 +36,7 @@ namespace Practica {
 			GreetCountries($"{path}countries.txt", outputFile);
 
 			Avion vuelo = new Avion(today, 32, "VIP");
-			Console.WriteLine(vuelo.TotalPasajeros());
+			Console.WriteLine("El precio total es de $" + vuelo.TotalPasajeros());
 			Console.WriteLine(vuelo.Detalles());
 
 			try {
